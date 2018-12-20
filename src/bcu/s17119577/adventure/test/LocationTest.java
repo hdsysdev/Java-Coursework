@@ -1,6 +1,6 @@
-package bcu.changeme.adventure.test;
+package bcu.s17119577.adventure.test;
 
-import bcu.changeme.adventure.model.Location;
+import bcu.s17119577.adventure.model.Location;
 
 import org.junit.Test;
 import static org.junit.Assert.*;

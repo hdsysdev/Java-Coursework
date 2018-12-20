@@ -1,4 +1,4 @@
-package bcu.changeme.adventure.game;
+package bcu.s17119577.adventure.game;
 
 import bcu.changeme.adventure.effects.Effect;
 
