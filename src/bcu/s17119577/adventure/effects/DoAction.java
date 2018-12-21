@@ -15,9 +15,9 @@ public class DoAction implements Effect{
     @Override
     public void execute(Player player, World world) {
         if (!world.getAction(actionName).isAllowed(player) || world.getAction(actionName) == null){
-            System.out.println("You cant perform that action.");
+            System.out.println("You can't perform that action.");
         } else {
-            for (Effect effect : world.getAction(actionName).getEffects()){
+            for (Effect effect : world.getAction(actionName).getEffects()) {
                 effect.execute(player, world);
             }
         }
