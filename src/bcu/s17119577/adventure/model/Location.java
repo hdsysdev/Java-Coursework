@@ -45,7 +45,7 @@ public class Location {
 	
 	public Collection<String> getAllDirections() {
 		// TODO: implement getAllDirections method
-		return Collections.unmodifiableSet(neigbours.keySet());
+		return Collections.unmodifiableCollection(neigbours.keySet());
 	}
 	
 	public List<Item> getItems() {

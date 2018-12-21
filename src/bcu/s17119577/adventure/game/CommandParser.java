@@ -10,10 +10,9 @@ import bcu.s17119577.adventure.effects.Message;
 import bcu.s17119577.adventure.effects.Quit;
 import bcu.s17119577.adventure.effects.ShowInventory;
 import bcu.s17119577.adventure.effects.TakeItem;
-import bcu.s17119577.adventure.model.Item;
 
 public class CommandParser {
-	public static final String HELP_MESSAGE =
+	private static final String HELP_MESSAGE =
 		"Commands:\n" +
 		"    look              Look around you.\n" +
 		"    look [item]       Look at an item.\n" +
