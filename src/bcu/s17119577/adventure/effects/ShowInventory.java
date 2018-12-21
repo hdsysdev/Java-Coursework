@@ -15,9 +15,9 @@ public class ShowInventory implements Effect{
         if (player.getInventory().size() == 0){
             System.out.println("Your inventory is empty.");
         } else {
-            System.out.println("Your inventory: ");
+            System.out.print("Your inventory: ");
             for (Item item : player.getInventory()){
-                System.out.print(item.getName() + ", ");
+                System.out.println(item.getName() + " ");
             }
         }
     }

@@ -15,8 +15,9 @@ public class GoDirection implements Effect{
     public void execute(Player player, World world) {
         if (player.getLocation().getNeighbour(direction) != null){
             player.setLocation(player.getLocation().getNeighbour(direction));
+            System.out.println("You are in " + player.getLocation().getName() + ".");
         } else {
-            System.out.print("There is nothing in that direction.");
+            System.out.println("There is nothing in that direction.");
         }
     }
 }

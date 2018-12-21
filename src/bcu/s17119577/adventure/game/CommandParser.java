@@ -1,7 +1,15 @@
 package bcu.s17119577.adventure.game;
 
+import bcu.s17119577.adventure.effects.DoAction;
+import bcu.s17119577.adventure.effects.DropItem;
 import bcu.s17119577.adventure.effects.Effect;
+import bcu.s17119577.adventure.effects.GoDirection;
+import bcu.s17119577.adventure.effects.LookItem;
 import bcu.s17119577.adventure.effects.LookLocation;
+import bcu.s17119577.adventure.effects.Message;
+import bcu.s17119577.adventure.effects.Quit;
+import bcu.s17119577.adventure.effects.ShowInventory;
+import bcu.s17119577.adventure.effects.TakeItem;
 import bcu.s17119577.adventure.model.Item;
 
 public class CommandParser {
@@ -18,32 +26,28 @@ public class CommandParser {
 	
 	public static Effect parsePlayerCommand(String command) {
 		// TODO: complete implementation of parsePlayerCommand
-		switch (command){
-			case "look": return new LookLocation().execute();
-			case "look [item]":
+		String[] parts = command.split(" ");
+		String firstPart = parts[0];
+
+		if("look".equalsIgnoreCase(firstPart) && parts.length == 1) {
+			return new LookLocation();
+		} else if("look".equalsIgnoreCase(firstPart) && parts.length == 2) {
+			return new LookItem(parts[1]);
+		} else if("inventory".equalsIgnoreCase(firstPart)) {
+			return new ShowInventory();
+		} else if("go".equalsIgnoreCase(firstPart) && parts.length == 2) {
+			return new GoDirection(parts[1]);
+		} else if("take".equalsIgnoreCase(firstPart) && parts.length == 2) {
+			return new TakeItem(parts[1]);
+		} else if("drop".equalsIgnoreCase(firstPart) && parts.length == 2) {
+			return new DropItem(parts[1]);
+		} else if("help".equalsIgnoreCase(firstPart)) {
+			return new Message(HELP_MESSAGE);
+		} else if("quit".equalsIgnoreCase(firstPart)) {
+			return new Quit();
+		} else {
+			return new DoAction(command);
 		}
-//		BufferedReader keyboard = new BufferedReader(
-////				new InputStreamReader(System.in)
-////		);
-////
-////		System.out.println("Address book");
-////		while(true) {
-////			System.out.print("> ");
-////			String command = keyboard.readLine();
-////			if("exit".equalsIgnoreCase(command)) {
-////				break;
-////			}
-////
-////			try {
-////				parseAndExecute(command);
-////			} catch(AlreadyPresentException ex) {
-////				System.out.println("The entry for " + ex.getName() + " already exists.");
-////			} catch(NotPresentException ex) {
-////				System.out.println("The entry for " + ex.getName() + " does not exist.");
-////			} catch(InvalidCommandException ex) {
-////				System.out.println("Invalid command (enter 'help' to see the valid commands).");
-////			}
-////		}
 
 	}
 }

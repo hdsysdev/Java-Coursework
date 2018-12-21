@@ -15,11 +15,11 @@ public class TakeItem implements Effect{
     public void execute(Player player, World world) {
         Item item = world.getItem(name);
 
-        if (!player.hasItem(item) || item.getLocation() != player.getLocation() || !item.isPortable() || item == null){
+        if (player.hasItem(item) || item.getLocation() != player.getLocation() || !item.isPortable() || world.getItem("hammer") == null){
             System.out.println("The player cannot take the " + name);
         } else {
             player.takeItem(item);
-            System.out.println("You've taken the " + name);
+            System.out.println("You have taken the " + name);
         }
     }
 }

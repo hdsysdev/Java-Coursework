@@ -31,6 +31,7 @@ public class Player {
 			throw new IllegalArgumentException();
 		}
 		inventory.add(item);
+		location.removeItem(item);
 	}
 	
 	public boolean hasItem(Item item) {
@@ -49,8 +50,8 @@ public class Player {
 			throw new IllegalArgumentException();
 		}
 		inventory.remove(item);
+		location.addItem(item);
 		item.setLocation(location);
-
 	}
 	
 	public List<Item> getInventory() {
