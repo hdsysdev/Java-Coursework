@@ -64,6 +64,13 @@ public class LocationTest {
 		assertEquals(house.getItems(), items);
 	}
 
+	@Test(expected = IllegalArgumentException.class)
+	public void testRemoveItemNotInLocation() {
+		Item table = new Item("Table", "A small table");
+
+		house.removeItem(table);
+	}
+
 	@Test
 	public void testHasItem() {
 		Item painting = new Item("Painting", "A painting hanging on the wall");

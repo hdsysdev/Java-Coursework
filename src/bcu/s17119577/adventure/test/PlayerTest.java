@@ -63,9 +63,30 @@ public class PlayerTest {
 	}
 
 	@Test
-	public void testCanSee() {
+	public void testCanSeeItem() {
 		Item spoon = new Item("spoon", "A spoon");
 		street.addItem(spoon);
 		assertTrue(player.canSeeItem(spoon));
+	}
+
+	@Test
+	public void testDropItem() {
+		Item spoon = new Item("spoon", "A spoon");
+		street.addItem(spoon);
+		spoon.setPortable(true);
+		player.takeItem(spoon);
+		assertTrue(player.hasItem(spoon));
+		player.dropItem(spoon);
+		assertFalse(player.hasItem(spoon));
+	}
+
+	@Test
+	public void testHasItem() {
+		Item spoon = new Item("spoon", "A spoon");
+		street.addItem(spoon);
+		spoon.setPortable(true);
+		assertFalse(player.hasItem(spoon));
+		player.takeItem(spoon);
+		assertTrue(player.hasItem(spoon));
 	}
 }
