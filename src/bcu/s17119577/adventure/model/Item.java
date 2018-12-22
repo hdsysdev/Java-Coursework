@@ -24,18 +24,21 @@ public class Item {
 
 	/**Gets the items name.
 	 *
+	 * @return Item's name
 	 */
 	public String getName() {
 		return name;
 	}
 	/**Gets the item's description.
 	 *
+	 * @return Item's description
 	 */
 	public String getDescription() {
 		return description;
 	}
 	/**Gets the location of the item.
 	 *
+	 * @return Item's location
 	 */
 	public Location getLocation() {
 		return location;
@@ -49,6 +52,7 @@ public class Item {
 	}
 	/** Method used to tell if the item can be picked up by the player.
 	 *
+	 * @return If the item is portable or not
 	 */
 	public boolean isPortable() {
 		return portable;

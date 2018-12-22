@@ -11,6 +11,7 @@ public class Message implements Effect{
     private String message;
     /**Constructor to create the object and assign the message that will be printed
      *
+     * @param message Message text to be printed
      */
     public Message(String message) {
         this.message = message;

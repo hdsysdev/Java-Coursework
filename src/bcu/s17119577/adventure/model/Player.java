@@ -24,6 +24,7 @@ public class Player {
 
 	/**Fetches the current location of the player.
 	 *
+	 * @return Player's current location
 	 */
 	public Location getLocation() {
 		return location;
@@ -52,6 +53,7 @@ public class Player {
 	/**Checks if the person has the given item in their inventory
 	 *
 	 * @param item The item which will be checked for presence in the players inventory
+	 * @return Weather or not the player's inventory contains a given item
 	 */
 	public boolean hasItem(Item item) {
 		return inventory.contains(item);
@@ -60,6 +62,7 @@ public class Player {
 	/**Checks if the person can see their item in their inventory or location
 	 *
 	 * @param item The item which will be checked for accessibility to the player
+	 * @return Weather on not the player's inventory contains an item or the item is in the players location
 	 */
 	public boolean canSeeItem(Item item) {
 		return inventory.contains(item) || item.getLocation() == location;
@@ -80,6 +83,7 @@ public class Player {
 
 	/**Fetches a list of the player's inventory
 	 *
+	 * @return List of the players inventory
 	 */
 	public List<Item> getInventory() {
 		return Collections.unmodifiableList(inventory);

@@ -33,12 +33,14 @@ public class Location {
 
 	/**Gets the name of this location
 	 *
+	 * @return Name of the location
 	 */
 	public String getName() {
 		return name;
 	}
 	/**Gets the description of this location
 	 *
+	 * @return Description of the location
 	 */
 	public String getDescription() {
 		return description;
@@ -55,18 +57,21 @@ public class Location {
 	/**Fetches the location object of a neighbouring location based on the direction
 	 *
 	 * @param direction Direction of the desired neighbour Location object
+	 * @return Location object of the neighbour in the given direction
 	 */
 	public Location getNeighbour(String direction) {
 		return neighbours.getOrDefault(direction, null);
 	}
 	/**Fetches a collection of all directions present with a neighbour
 	 *
+	 * @return Collection of all the possible directions the user can go in
 	 */
 	public Collection<String> getAllDirections() {
 		return Collections.unmodifiableCollection(neighbours.keySet());
 	}
 	/**Fetches a list of all the items present in the location on which this method is called
 	 *
+	 * @return List of all the items in the current location
 	 */
 	public List<Item> getItems() {
 		return Collections.unmodifiableList(items);
@@ -82,7 +87,7 @@ public class Location {
 	/**Checks if the passed item is present in the location on which this method is called
 	 *
 	 * @param item The item which will be checked for presence in the current location
-	 *
+	 * @return Weather or not the location contains the given item
 	 */
 	public boolean hasItem(Item item) {
 		return items.contains(item);

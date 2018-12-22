@@ -12,6 +12,7 @@ public class TakeItem implements Effect{
     private String name;
     /**Constructor that creates the effect object and assigns the name of the item being taken
      *
+     * @param name Name of the item to be taken
      */
     public TakeItem(String name) {
        this.name = name;

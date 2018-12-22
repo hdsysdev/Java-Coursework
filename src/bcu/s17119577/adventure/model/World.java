@@ -34,6 +34,7 @@ public class World {
 
 	/**Fetches the starting location in which the player will spawn in.
 	 *
+	 * @return Returns the starting location of the world
 	 */
 	public Location getStartingLocation() {
 		return startingLocation;
@@ -50,6 +51,7 @@ public class World {
 	/**Fetches an item with a given name or returns null if no such item exists
 	 *
 	 * @param name The name of an item you're trying to fetch
+	 * @return Item of a given name or null if no such item found
 	 */
 	public Item getItem(String name) {
 		return itemMap.getOrDefault(name, null);
@@ -59,6 +61,7 @@ public class World {
 	 *
 	 * @param name Name that will be assigned to the new item
 	 * @param description Description that will be assigned to the new item
+	 * @return Newly created item
 	 */
 	public Item addItem(String name, String description) {
 		if (itemMap.containsKey(name)){
@@ -71,6 +74,7 @@ public class World {
 	/**Fetches a location in the game based on the name of the location
 	 *
 	 * @param name Name of the location to be fetched
+	 * @return Location of given name if exists, null if doesn't exist
 	 */
 	public Location getLocation(String name) {
 		return locationMap.getOrDefault(name, null);
@@ -80,6 +84,7 @@ public class World {
 	 *
 	 * @param name Name to be assigned to the new location
 	 * @param description Description to be assigned to the new location
+	 * @return Newly created location
 	 */
 	public Location addLocation(String name, String description) {
 		if (locationMap.containsKey(name)){
@@ -92,6 +97,7 @@ public class World {
 	/**Fetches an action based on a given name
 	 *
 	 * @param name Name of the action to be fetched
+	 * @return Action of given name if exists, null if doesn't exist
 	 */
 	public Action getAction(String name) {
 		return actionMap.getOrDefault(name, null);
@@ -99,6 +105,7 @@ public class World {
 
 	/**Adds a new action if no action with the same name exists.
 	 *
+	 * @return Newly created Action
 	 * @param name Name of the new action
 	 */
 	public Action addAction(String name) {
@@ -119,6 +126,7 @@ public class World {
 
 	/**Gets the list of effects that are ran at the start of the game
 	 *
+	 * @return List of effects ran at the start of the game
 	 */
 	public List<Effect> getStartEffects() {
 		return Collections.unmodifiableList(effectList);

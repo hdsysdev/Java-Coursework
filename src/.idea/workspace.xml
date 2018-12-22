@@ -5,23 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c218e7f-6560-4f1d-b4b9-a954c13e0423" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Compiled/production/src/bcu/s17119577/adventure/effects/DoAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Compiled/production/src/bcu/s17119577/adventure/effects/DoAction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Compiled/production/src/bcu/s17119577/adventure/game/CommandParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Compiled/production/src/bcu/s17119577/adventure/game/CommandParser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Compiled/production/src/bcu/s17119577/adventure/game/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Compiled/production/src/bcu/s17119577/adventure/game/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bcu/s17119577/adventure/effects/DoAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/bcu/s17119577/adventure/effects/DoAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bcu/s17119577/adventure/effects/DropItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/bcu/s17119577/adventure/effects/DropItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bcu/s17119577/adventure/effects/Effect.java" beforeDir="false" afterPath="$PROJECT_DIR$/bcu/s17119577/adventure/effects/Effect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bcu/s17119577/adventure/effects/GoDirection.java" beforeDir="false" afterPath="$PROJECT_DIR$/bcu/s17119577/adventure/effects/GoDirection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bcu/s17119577/adventure/effects/LookItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/bcu/s17119577/adventure/effects/LookItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bcu/s17119577/adventure/effects/LookLocation.java" beforeDir="false" afterPath="$PROJECT_DIR$/bcu/s17119577/adventure/effects/LookLocation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bcu/s17119577/adventure/effects/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/bcu/s17119577/adventure/effects/Message.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bcu/s17119577/adventure/effects/Quit.java" beforeDir="false" afterPath="$PROJECT_DIR$/bcu/s17119577/adventure/effects/Quit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bcu/s17119577/adventure/effects/ShowInventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/bcu/s17119577/adventure/effects/ShowInventory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bcu/s17119577/adventure/effects/TakeItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/bcu/s17119577/adventure/effects/TakeItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bcu/s17119577/adventure/game/CommandParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/bcu/s17119577/adventure/game/CommandParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bcu/s17119577/adventure/game/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/bcu/s17119577/adventure/game/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bcu/s17119577/adventure/game/QuitException.java" beforeDir="false" afterPath="$PROJECT_DIR$/bcu/s17119577/adventure/game/QuitException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bcu/s17119577/adventure/model/Action.java" beforeDir="false" afterPath="$PROJECT_DIR$/bcu/s17119577/adventure/model/Action.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bcu/s17119577/adventure/model/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/bcu/s17119577/adventure/model/Item.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bcu/s17119577/adventure/model/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/bcu/s17119577/adventure/model/Location.java" afterDir="false" />
@@ -47,23 +33,23 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="142" />
+          <entry key="java" value="147" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="142" />
+          <entry key="JAVA" value="147" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="4" />
-          <entry key="java" value="21635" />
+          <entry key="java" value="22982" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="21635" />
+          <entry key="JAVA" value="22982" />
           <entry key="PLAIN_TEXT" value="4" />
         </counts>
       </usages-collector>
@@ -72,24 +58,30 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bcu/s17119577/adventure/effects/GoDirection.java">
+        <entry file="file://$PROJECT_DIR$/bcu/s17119577/adventure/model/Action.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="23" column="89" selection-start-line="23" selection-start-column="89" selection-end-line="23" selection-end-column="89" />
+            <state relative-caret-position="421">
+              <caret line="69" column="54" selection-start-line="69" selection-start-column="54" selection-end-line="69" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#870#871#0" expanded="true" />
+                <element signature="e#888#889#0" expanded="true" />
+                <element signature="e#1973#1974#0" expanded="true" />
+                <element signature="e#2024#2025#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bcu/s17119577/adventure/effects/LookItem.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bcu/s17119577/adventure/model/World.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="20" column="107" selection-start-line="20" selection-start-column="107" selection-end-line="20" selection-end-column="107" />
+            <state relative-caret-position="421">
+              <caret line="128" column="59" selection-start-line="128" selection-start-column="59" selection-end-line="128" selection-end-column="59" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#3535#3536#0" expanded="true" />
+                <element signature="e#3589#3590#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -98,8 +90,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bcu/s17119577/adventure/effects/DropItem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="14" selection-end-column="7" />
+            <state relative-caret-position="266">
+              <caret line="14" column="49" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#232#233#0" expanded="true" />
@@ -110,10 +102,18 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bcu/s17119577/adventure/effects/Effect.java">
+        <entry file="file://$PROJECT_DIR$/bcu/s17119577/adventure/model/Player.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="5" column="55" selection-start-line="5" selection-start-column="55" selection-end-line="5" selection-end-column="55" />
+            <state relative-caret-position="-20">
+              <caret line="63" column="108" selection-start-line="63" selection-start-column="108" selection-end-line="63" selection-end-column="108" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#743#744#0" expanded="true" />
+                <element signature="e#765#766#0" expanded="true" />
+                <element signature="e#2285#2286#0" expanded="true" />
+                <element signature="e#2338#2339#0" expanded="true" />
+                <marker date="1545442890447" expanded="true" signature="1179:1280" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -144,11 +144,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bcu/s17119577/adventure/effects/TakeItem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+            <state relative-caret-position="209">
+              <caret line="14" column="47" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#275#276#0" expanded="true" />
@@ -159,24 +159,24 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bcu/s17119577/adventure/effects/LookLocation.java">
+        <entry file="file://$PROJECT_DIR$/bcu/s17119577/adventure/model/Item.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="4" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="402">
+              <caret line="54" column="45" selection-start-line="54" selection-start-column="45" selection-end-line="54" selection-end-column="45" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bcu/s17119577/adventure/effects/Message.java">
+        <entry file="file://$PROJECT_DIR$/bcu/s17119577/adventure/model/Location.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+            <state relative-caret-position="208">
+              <caret line="68" column="50" lean-forward="true" selection-start-line="68" selection-start-column="50" selection-end-line="68" selection-end-column="50" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#1131#1132#0" expanded="true" />
+                <element signature="e#1149#1150#0" expanded="true" />
+                <element signature="e#2178#2179#0" expanded="true" />
+                <element signature="e#2227#2228#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -228,13 +228,7 @@
         <option value="$PROJECT_DIR$/bcu/s17119577/adventure/game/Main.java" />
         <option value="$PROJECT_DIR$/bcu/s17119577/adventure/game/CommandParser.java" />
         <option value="$PROJECT_DIR$/bcu/s17119577/adventure/game/QuitException.java" />
-        <option value="$PROJECT_DIR$/bcu/s17119577/adventure/model/Action.java" />
-        <option value="$PROJECT_DIR$/bcu/s17119577/adventure/model/Item.java" />
-        <option value="$PROJECT_DIR$/bcu/s17119577/adventure/model/Location.java" />
-        <option value="$PROJECT_DIR$/bcu/s17119577/adventure/model/Player.java" />
-        <option value="$PROJECT_DIR$/bcu/s17119577/adventure/model/World.java" />
         <option value="$PROJECT_DIR$/bcu/s17119577/adventure/effects/DoAction.java" />
-        <option value="$PROJECT_DIR$/bcu/s17119577/adventure/effects/DropItem.java" />
         <option value="$PROJECT_DIR$/bcu/s17119577/adventure/effects/Effect.java" />
         <option value="$PROJECT_DIR$/bcu/s17119577/adventure/effects/GoDirection.java" />
         <option value="$PROJECT_DIR$/bcu/s17119577/adventure/effects/LookItem.java" />
@@ -243,6 +237,12 @@
         <option value="$PROJECT_DIR$/bcu/s17119577/adventure/effects/Quit.java" />
         <option value="$PROJECT_DIR$/bcu/s17119577/adventure/effects/ShowInventory.java" />
         <option value="$PROJECT_DIR$/bcu/s17119577/adventure/effects/TakeItem.java" />
+        <option value="$PROJECT_DIR$/bcu/s17119577/adventure/effects/DropItem.java" />
+        <option value="$PROJECT_DIR$/bcu/s17119577/adventure/model/Action.java" />
+        <option value="$PROJECT_DIR$/bcu/s17119577/adventure/model/Item.java" />
+        <option value="$PROJECT_DIR$/bcu/s17119577/adventure/model/Location.java" />
+        <option value="$PROJECT_DIR$/bcu/s17119577/adventure/model/Player.java" />
+        <option value="$PROJECT_DIR$/bcu/s17119577/adventure/model/World.java" />
       </list>
     </option>
   </component>
@@ -327,7 +327,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545442166780" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545442893389" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../phone-book" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -471,7 +471,7 @@
       <updated>1544886912255</updated>
       <workItem from="1544886913561" duration="703000" />
       <workItem from="1545311875512" duration="17059000" />
-      <workItem from="1545396193723" duration="36716000" />
+      <workItem from="1545396193723" duration="37564000" />
     </task>
     <servers />
   </component>
@@ -508,13 +508,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54478000" />
+    <option name="totallyTimeSpent" value="55326000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.096481875" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.096481875" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -524,7 +524,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.32929516" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.25881058" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25881058" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4989339" weight="0.39977974" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -690,95 +690,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bcu/s17119577/adventure/model/World.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2318">
-          <caret line="122" column="43" selection-start-line="122" selection-start-column="43" selection-end-line="122" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1006#1007#0" expanded="true" />
-            <element signature="e#1036#1037#0" expanded="true" />
-            <element signature="e#1169#1170#0" expanded="true" />
-            <element signature="e#1203#1204#0" expanded="true" />
-            <element signature="e#1399#1400#0" expanded="true" />
-            <element signature="e#1445#1446#0" expanded="true" />
-            <element signature="e#2066#2067#0" expanded="true" />
-            <element signature="e#2116#2117#0" expanded="true" />
-            <element signature="e#2834#2835#0" expanded="true" />
-            <element signature="e#2882#2883#0" expanded="true" />
-            <element signature="e#3392#3393#0" expanded="true" />
-            <element signature="e#3421#3422#0" expanded="true" />
-            <element signature="e#3593#3594#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bcu/s17119577/adventure/model/Action.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1254">
-          <caret line="66" column="56" selection-start-line="66" selection-start-column="56" selection-end-line="66" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bcu/s17119577/adventure/model/Player.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1526">
-          <caret line="83" column="38" selection-start-line="83" selection-start-column="38" selection-end-line="83" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#743#744#0" expanded="true" />
-            <element signature="e#765#766#0" expanded="true" />
-            <element signature="e#957#958#0" expanded="true" />
-            <element signature="e#988#989#0" expanded="true" />
-            <element signature="e#1535#1536#0" expanded="true" />
-            <element signature="e#1573#1574#0" expanded="true" />
-            <element signature="e#2340#2341#0" expanded="true" />
-            <marker date="1545439557772" expanded="true" signature="1179:1280" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bcu/s17119577/adventure/model/Item.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1083">
-          <caret line="57" column="71" selection-start-line="57" selection-start-column="71" selection-end-line="57" selection-end-column="71" />
-          <folding>
-            <element signature="e#802#803#0" expanded="true" />
-            <element signature="e#820#821#0" expanded="true" />
-            <element signature="e#888#889#0" expanded="true" />
-            <element signature="e#913#914#0" expanded="true" />
-            <element signature="e#1000#1001#0" expanded="true" />
-            <element signature="e#1022#1023#0" expanded="true" />
-            <element signature="e#1183#1184#0" expanded="true" />
-            <element signature="e#1220#1221#0" expanded="true" />
-            <element signature="e#1329#1330#0" expanded="true" />
-            <element signature="e#1351#1352#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bcu/s17119577/adventure/model/Location.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1634">
-          <caret line="91" column="67" selection-start-line="91" selection-start-column="67" selection-end-line="91" selection-end-column="67" />
-          <folding>
-            <element signature="e#1065#1066#0" expanded="true" />
-            <element signature="e#1083#1084#0" expanded="true" />
-            <element signature="e#1162#1163#0" expanded="true" />
-            <element signature="e#1187#1188#0" expanded="true" />
-            <element signature="e#1618#1619#0" expanded="true" />
-            <element signature="e#1672#1673#0" expanded="true" />
-            <element signature="e#2053#2054#0" expanded="true" />
-            <element signature="e#2102#2103#0" expanded="true" />
-            <element signature="e#2667#2668#0" expanded="true" />
-            <element signature="e#2701#2702#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bcu/s17119577/adventure/game/CommandParser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
@@ -797,18 +708,6 @@
             <element signature="imports" expanded="true" />
             <element signature="e#326#327#0" expanded="true" />
             <element signature="e#364#365#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bcu/s17119577/adventure/effects/DropItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="14" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#232#233#0" expanded="true" />
-            <element signature="e#264#265#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -843,7 +742,7 @@
     <entry file="file://$PROJECT_DIR$/bcu/s17119577/adventure/effects/LookLocation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
-          <caret line="13" column="4" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -891,12 +790,85 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bcu/s17119577/adventure/effects/TakeItem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+        <state relative-caret-position="209">
+          <caret line="14" column="47" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#275#276#0" expanded="true" />
             <element signature="e#306#307#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bcu/s17119577/adventure/effects/DropItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="49" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#232#233#0" expanded="true" />
+            <element signature="e#264#265#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bcu/s17119577/adventure/model/Action.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="69" column="54" selection-start-line="69" selection-start-column="54" selection-end-line="69" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#870#871#0" expanded="true" />
+            <element signature="e#888#889#0" expanded="true" />
+            <element signature="e#1973#1974#0" expanded="true" />
+            <element signature="e#2024#2025#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bcu/s17119577/adventure/model/Item.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="54" column="45" selection-start-line="54" selection-start-column="45" selection-end-line="54" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bcu/s17119577/adventure/model/Location.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="68" column="50" lean-forward="true" selection-start-line="68" selection-start-column="50" selection-end-line="68" selection-end-column="50" />
+          <folding>
+            <element signature="e#1131#1132#0" expanded="true" />
+            <element signature="e#1149#1150#0" expanded="true" />
+            <element signature="e#2178#2179#0" expanded="true" />
+            <element signature="e#2227#2228#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bcu/s17119577/adventure/model/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-20">
+          <caret line="63" column="108" selection-start-line="63" selection-start-column="108" selection-end-line="63" selection-end-column="108" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#743#744#0" expanded="true" />
+            <element signature="e#765#766#0" expanded="true" />
+            <element signature="e#2285#2286#0" expanded="true" />
+            <element signature="e#2338#2339#0" expanded="true" />
+            <marker date="1545442890447" expanded="true" signature="1179:1280" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bcu/s17119577/adventure/model/World.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="128" column="59" selection-start-line="128" selection-start-column="59" selection-end-line="128" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3535#3536#0" expanded="true" />
+            <element signature="e#3589#3590#0" expanded="true" />
           </folding>
         </state>
       </provider>

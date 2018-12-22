@@ -28,9 +28,9 @@ public class Action {
 	}
 	/**Gets the name of the action.
 	 *
+	 * @return Name of the action
 	 */
 	public String getName() {
-		// TODO: implement getName method
 		return name;
 	}
 	/**Adds an item required for the completion of this action.
@@ -45,6 +45,7 @@ public class Action {
 	/**Decides if the action can be completed based on if the player has or can see the items required for the action.
 	 *
 	 * @param player The player who will be completing the action
+	 * @return If the player is allowed to do the action
 	 */
 	public boolean isAllowed(Player player) {
 		// TODO: implement isAllowed method
@@ -66,9 +67,9 @@ public class Action {
 	}
 	/**Returns the list of effects the action will cause
 	 *
+	 * @return List of effects the action will execute
 	 */
 	public List<Effect> getEffects() {
-		// TODO: implement getEffects method
 		return Collections.unmodifiableList(effects);
 	}
 }

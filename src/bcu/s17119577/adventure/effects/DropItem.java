@@ -12,6 +12,7 @@ public class DropItem implements Effect{
 
     /**Constructor that assigns the name of the item that will be dropped.
      *
+     * @param name Name of the item to be dropped
      */
     public DropItem(String name) {
         this.name = name;

@@ -27,6 +27,7 @@ public class Main implements Runnable{
      * <p>This method is where the program starts executing from. In this method, the world, locations, items, etc are created as well as all of their properties being
      * assigned. For usage see the documentation for the classes in the model part of the package.</p>
      *
+     * @param args String array of arguments passed to main method
      */
     public static void main(String[] args)  {
         World world = new World();
