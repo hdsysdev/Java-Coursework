@@ -1,21 +1,30 @@
 package bcu.s17119577.adventure.effects;
 
-import java.util.Arrays;
 
 import bcu.s17119577.adventure.model.Item;
 import bcu.s17119577.adventure.model.Player;
 import bcu.s17119577.adventure.model.World;
 
+/**Effect that allows the user to inspect their current location by printing out a description of the location.
+ *
+ * @author Hubert Dudowicz
+ *
+ */
 public class LookLocation implements Effect{
-    private String direction;
 
+    /**Constructor to create the effect object
+     *
+     */
     public LookLocation() {
-
     }
 
+    /**Tells the player information about their surroundings, what items are around them and what directions they can go in to get to new places.
+     *
+     * @param player Player who's location is being inspected
+     * @param world World where the location being inspected is located.
+     */
     @Override
     public void execute(Player player, World world) {
-        //System.out.println("You are currently at a " + player.getLocation().getName());
         System.out.println(player.getLocation().getDescription());
         if (player.getLocation().getItems().isEmpty()){
             System.out.println("There are no items around you");

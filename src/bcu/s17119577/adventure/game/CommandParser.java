@@ -10,7 +10,11 @@ import bcu.s17119577.adventure.effects.Message;
 import bcu.s17119577.adventure.effects.Quit;
 import bcu.s17119577.adventure.effects.ShowInventory;
 import bcu.s17119577.adventure.effects.TakeItem;
-
+/**Class for parsing the inputted commands inputted by the user.
+ * <p>This class stores the static parsePlayerCommand which is the function that is responsible for parsing the user's input and running the appropriate Effect class.
+ * Otherwise, it outputs a message if the command is not valid.</p>
+ * @author Hubert Dudowicz
+ */
 public class CommandParser {
 	private static final String HELP_MESSAGE =
 		"Commands:\n" +

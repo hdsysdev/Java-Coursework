@@ -4,48 +4,72 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
+/**This class models the player in the game.
+ * <p>This class contains variables and methods that are to be used with the player in the game.</p>
+ *
+ * @author Hubert Dudowicz
+ */
 public class Player {
-	// TODO: declare fields
 	private Location location;
 	private List<Item> inventory;
-	
+
+	/** Constructor to create a new player in the given location with an empty inventory.
+	 *
+	 * @param location The location in which the player will be created
+	 */
 	public Player(Location location) {
-		// TODO: implement constructor
 		this.location = location;
 		this.inventory = new ArrayList<>();
 	}
-	
+
+	/**Fetches the current location of the player.
+	 *
+	 */
 	public Location getLocation() {
-		// TODO: implement getLocation method
 		return location;
 	}
-	
+
+	/**Sets the player's location to a given location
+	 *
+	 * @param location The new location which the player's location will be changed to
+	 */
 	public void setLocation(Location location) {
-		// TODO: implement setLocation method
 		this.location = location;
 	}
-	
+
+	/**Makes the player pick up a given item, if possible, and store it in their inventory.
+	 *
+	 * @param item The item which the player is to pick up
+	 */
 	public void takeItem(Item item) {
-		// TODO: implement takeItem method
 		if (item.getLocation() != location || !item.isPortable()){
 			throw new IllegalArgumentException();
 		}
 		inventory.add(item);
 		location.removeItem(item);
 	}
-	
+
+	/**Checks if the person has the given item in their inventory
+	 *
+	 * @param item The item which will be checked for presence in the players inventory
+	 */
 	public boolean hasItem(Item item) {
-		// TODO: implement hasItem method
 		return inventory.contains(item);
 	}
-	
+
+	/**Checks if the person can see their item in their inventory or location
+	 *
+	 * @param item The item which will be checked for accessibility to the player
+	 */
 	public boolean canSeeItem(Item item) {
-		// TODO: implement canSeeItem method
 		return inventory.contains(item) || item.getLocation() == location;
 	}
-	
+
+	/**Drops a given item at the current location if it is present in the persons inventory
+	 *
+	 * @param item The item which should be dropped
+	 */
 	public void dropItem(Item item) {
-		// TODO: implement dropItem method
 		if (!inventory.contains(item)){
 			throw new IllegalArgumentException();
 		}
@@ -53,9 +77,11 @@ public class Player {
 		location.addItem(item);
 		item.setLocation(location);
 	}
-	
+
+	/**Fetches a list of the player's inventory
+	 *
+	 */
 	public List<Item> getInventory() {
-		// TODO: implement getInventory method
 		return Collections.unmodifiableList(inventory);
 	}
 }
