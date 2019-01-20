@@ -26,7 +26,15 @@ public class CommandParser {
 		"    drop [item]       Drop an item.\n" +
 		"    help              Show this help message.\n" +
 		"    quit              Exit the game.";
-	
+
+	/**Takes command parameter and runs the correct effect.
+	 *
+	 * <p>This function takes the command the user typed in and runs the correct effect according to
+	 * the command typed in.</p>
+	 *
+	 * @param command The command the user has typed in
+	 * @return Returns the correct effect based on the command typed in
+	 */
 	public static Effect parsePlayerCommand(String command) {
 		// TODO: complete implementation of parsePlayerCommand
 		String[] parts = command.split(" ");
